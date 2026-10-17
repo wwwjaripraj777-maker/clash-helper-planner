@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_start_macro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start recording taps in this app" />
+
+    <Button
+        android:id="@+id/btn_stop_macro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop and save macro"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_replay_macro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Replay saved taps"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tv_macro_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Safe macro recorder for this app only. It will not interact with other apps or games."
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
