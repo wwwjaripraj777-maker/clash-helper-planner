@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_start_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Recording (will ask permission)" />
+
+    <Button
+        android:id="@+id/btn_stop_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Recording"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_screenshot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take Screenshot Now"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saved recordings and screenshots appear in the app files directory." 
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
